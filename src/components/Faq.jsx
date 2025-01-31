@@ -13,12 +13,6 @@ const FAQ = () => {
           </AccordionContent>
         </AccordionItem>
 
-        <AccordionItem value="question-2">
-          <AccordionTrigger>Do you charge a commission?</AccordionTrigger>
-          <AccordionContent>
-            No! Our properties come **directly from developers**, meaning you get the best deals **without extra commissions**.
-          </AccordionContent>
-        </AccordionItem>
 
         <AccordionItem value="question-3">
           <AccordionTrigger>Can you help with property financing?</AccordionTrigger>
