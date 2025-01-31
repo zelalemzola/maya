@@ -1,9 +1,21 @@
+import About from "@/components/About";
+import CTA from "@/components/CTA";
+import Expertise from "@/components/Expertise";
+import FAQ from "@/components/Faq";
+import Hero from "@/components/Hero";
+import { Button } from "@/components/ui/button";
+import Why from "@/components/Why";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-     
+    <div className=" h-full w-full">
+      <Hero/>
+      <Expertise/>
+      <About/>
+      <Why/>
+      <FAQ/>
+      
     </div>
   );
 }
