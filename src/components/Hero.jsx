@@ -5,7 +5,9 @@ import Image from 'next/image'
 const Hero = () => {
   return (
     <div className='h-full md:h-screen py-10'>
+       <BlurFade delay={0.40} inView>
         <p className="py-2 px-4 rounded-full bg-transparent border-secondary border-2 w-fit mx-auto">Providing Modern & lasting projects</p>
+       </BlurFade>
         <div className="pt-7 flex items-center flex-col md:flex-row px-10 ">
             <div className="flex flex-col gap-3 items-start">
                 <p className="text-xl text-secondary">Maya</p>

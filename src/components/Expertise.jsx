@@ -36,7 +36,7 @@ const Expertise = () => {
             <p className="text-md">Providing assistance even after the sale, ensuring clients feel supported</p>
           </div>
           <div className="bg-zinc-600 shadow-xl p-5 flex flex-col gap-3 w-[90%] md:w-[25%] rounded-2xl ">
-            <p className="text-xl text-secondadry"><MessageSquareText /></p>
+            <p className="text-xl text-secondary"><MessageSquareText /></p>
             <p className="font-bold text-xl text-secondary">Negotiation Skills</p>
             <p className="text-md">Expert negotiators securing the best deals, ensuring fair pricing, and favorable terms.</p>
           </div>
