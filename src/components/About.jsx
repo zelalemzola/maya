@@ -5,10 +5,10 @@ import Image from 'next/image'
 import { BlurFade } from './ui/blur-fade'
 const About = () => {
   return (
-    <div className='h-full md:h-screen py-10'>
-        <BlurFade delay={0.55} inView>
+    <div className='h-full md:h-screen py-10 md:my-20'>
+        
         <p className="py-2 px-4 rounded-full bg-transparent border-secondary border-2 w-fit mx-auto">About Us</p>
-        </BlurFade>
+      
         <div className="pt-7 flex items-center flex-col-reverse md:flex-row-reverse px-10  ">
             <div className="flex flex-col gap-3 items-start flex-1">
                 <BlurFade delay={0.65} inView><p className="text-xl text-secondary">Maya</p></BlurFade>

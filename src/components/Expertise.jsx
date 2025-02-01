@@ -17,7 +17,6 @@ const Expertise = () => {
       {/* Centering container */}
       <div className="flex flex-col items-center justify-center gap-10 w-full mt-10">
         <div className="flex flex-col md:flex-row justify-center items-center gap-6 w-full">
-          
           <div className="bg-zinc-700 shadow-xl p-5 flex flex-col gap-3 w-[90%] md:w-[25%] rounded-2xl ">
             <p className="text-xl text-secondary"> <ChartColumn /></p>
             <p className="font-bold text-xl text-secondary">Market Analysis</p>

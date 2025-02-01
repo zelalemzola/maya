@@ -12,7 +12,7 @@ const CTA = () => {
       <h1 className='text-3xl md:text-5xl font-bold'>Speak To Our Friendly Sales Team Today</h1>
      </BlurFade>
      <BlurFade delay={0.75} inView>
-      <p className="text-lg">Discover tailored solutions and expert advice designed to meet your unique needs. We're here to provide guidance and support every step of the way</p>
+      <p className="text-lg text-center">Discover tailored solutions and expert advice designed to meet your unique needs. We're here to provide guidance and support every step of the way</p>
       </BlurFade>
       <BlurFade delay={0.85} inView>
       <Link href='https://t.me/+251912026258' className='bg-white text-black hover:bg-zinc-400 px-4 py-2 rounded-full shadow-md hover:shadow-2xl flex items-center gap-2'>Contact Us<MoveRight /></Link>
