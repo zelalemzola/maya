@@ -40,7 +40,7 @@ const Navbar = () => {
       </div>
 
       <div className="hidden md:flex">
-        <Link href="https://:t.me/+251912026258" className="bg-secondary text-black hover:bg-secondary px-4 py-2 rounded-full shadow-md hover:shadow-2xl">
+        <Link href="https://t.me/+251912026258" className="bg-secondary text-black hover:bg-secondary px-4 py-2 rounded-full shadow-md hover:shadow-2xl">
           Contact Us
         </Link>
       </div>

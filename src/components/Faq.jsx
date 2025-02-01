@@ -1,10 +1,13 @@
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion";
+import { BlurFade } from "./ui/blur-fade";
 
 const FAQ = () => {
   return (
     <div className="max-w-3xl mx-auto py-16 px-5 md:px-0">
+      <BlurFade delay={0.60} inView>
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">Frequently Asked Questions?</h2>
-      
+      </BlurFade>
+      <BlurFade delay={0.75} inView>
       <Accordion type="single" collapsible className="w-full">
         <AccordionItem value="question-1">
           <AccordionTrigger>What types of properties do you offer?</AccordionTrigger>
@@ -35,6 +38,7 @@ const FAQ = () => {
           </AccordionContent>
         </AccordionItem>
       </Accordion>
+      </BlurFade>
     </div>
   );
 };

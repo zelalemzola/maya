@@ -188,8 +188,8 @@ export default function Home() {
             <PaginationPrevious onClick={() => setPage((prev) => Math.max(prev - 1, 1))} />
           </PaginationItem>
           {[...Array(totalPages)].map((_, i) => (
-            <PaginationItem key={i}>
-              <PaginationLink onClick={() => setPage(i + 1)} isActive={page === i + 1}>
+            <PaginationItem key={i} >
+              <PaginationLink onClick={() => setPage(i + 1)} isActive={page === i + 1} className='border-none bg-zinc-700 text-secondary'>
                 {i + 1}
               </PaginationLink>
             </PaginationItem>
